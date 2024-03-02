@@ -12,7 +12,7 @@ export const config = {
   databaseURI:
     process.env.DATABASE_URI ||
     process.env.MONGODB_URI ||
-    'mongodb+srv://reddyravindrat4512:ZmSkjiArpH40E58d@cluster0.fx7amgy.mongodb.net/',
+    'mongodb+srv://reddyravindrat4512:<password>@cluster0.fx7amgy.mongodb.net/',
   // cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || 'myAppId',
   masterKey: process.env.MASTER_KEY || 'master', //Add your master key here. Keep it secret!
